@@ -1,0 +1,9 @@
+#basic-button {
+    height: 75px;
+    width: 200px;
+    margin: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+

@@ -1,0 +1,13 @@
+.label {
+    padding: 10px;
+}
+
+.checkboxsmall {
+    height: 15px;
+    width: 15px;
+}
+.checkboxlarge {
+    height: 50px;
+    width: 50px;
+    border: 2px;
+}

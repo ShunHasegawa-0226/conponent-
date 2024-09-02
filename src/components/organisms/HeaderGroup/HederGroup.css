@@ -1,0 +1,14 @@
+.Header {
+    position: relative;
+    display: flex;
+    width: 1200px;
+}
+
+.loginBtn {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 10px;
+    left: auto;
+}
+

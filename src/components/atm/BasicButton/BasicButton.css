@@ -1,0 +1,12 @@
+.button {
+    margin: 10px;
+}
+
+.largeBtn {
+    height: 70px;
+    width: 200px;
+}
+.smallBtn {
+    height: 50px;
+    width: 100px;
+}

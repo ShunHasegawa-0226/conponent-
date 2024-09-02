@@ -1,0 +1,12 @@
+.label {
+    padding: 10px;
+}
+
+.smallRadioButton {
+    height: 20px;
+    width: 20px;
+}
+.largeRadioButton {
+    height: 50px;
+    width: 50px;
+}
