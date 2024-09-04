@@ -1,0 +1,11 @@
+.petBlogTop {
+    height: 74px;
+    width: 1300px;
+    display: flex;
+    position: relative;
+}
+.petBlogTopBtn {
+    position: absolute;
+    left: 1;
+    right: 0;
+}

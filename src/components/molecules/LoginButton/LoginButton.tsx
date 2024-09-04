@@ -3,7 +3,7 @@ import BasicButton from "../../atm/BasicButton/BasicButton";
 
 const LoginButton = () => {
     return(
-        <BasicButton size={"large"} color={"black"} btnText={"ログイン"}></BasicButton>
+        <BasicButton size={"large"} color={"white"} btnText={"ログイン"}></BasicButton>
     );
 };
 

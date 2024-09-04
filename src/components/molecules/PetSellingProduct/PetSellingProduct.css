@@ -1,0 +1,8 @@
+.productsSelling {
+    display: flex;
+    margin-top: 50px;
+}
+
+.productSelling {
+    margin: auto;
+}

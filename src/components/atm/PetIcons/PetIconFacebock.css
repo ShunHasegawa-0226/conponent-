@@ -1,0 +1,13 @@
+.facebockParent {
+    height: 45px;
+    width: 45px;
+    border: none;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.facebock {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 45px;
+}

@@ -6,7 +6,7 @@ type Props = {
 
 const DetailLinkBtn = (props: Props) => {
     return(
-        <LinkButton size={"small"} color={"black"} btnText={"詳細"} link={props.link} />
+        <LinkButton size={"small"} color={"white"} btnText={"詳細"} link={props.link} />
     );
 };
 

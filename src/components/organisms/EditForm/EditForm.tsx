@@ -9,7 +9,7 @@ const EditForm = () => {
             <h3>氏名：<TextField size={"large"} color={"white"} /></h3>
             <h3>年齢：<TextField size={"small"} color={"white"} /></h3>
             <SearchFormBackBtn />
-            <BasicButton size={"large"} color={"black"} btnText={"編集する"} />
+            <BasicButton size={"large"} color={"white"} btnText={"編集する"} />
         </form>
     );
 };

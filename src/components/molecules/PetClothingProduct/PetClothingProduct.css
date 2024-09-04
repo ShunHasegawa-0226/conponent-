@@ -1,0 +1,8 @@
+.productsClothing {
+    display: flex;
+    margin-top: 50px;
+}
+
+.productClothing {
+    margin: auto;
+}

@@ -15,7 +15,7 @@ const Table = (props: Props) => {
   return(
     <tr>
       <td><CheckBox size={"small"} color={"white"}></CheckBox></td>
-      <td><LinkButton size={"small"} color={"black"} btnText={"詳細"} link={props.link} /></td>
+      <td><LinkButton size={"small"} color={"white"} btnText={"詳細"} link={props.link} /></td>
       <td>{props.id}</td>
       <td>{props.name}</td>
       <td>{props.age}</td>

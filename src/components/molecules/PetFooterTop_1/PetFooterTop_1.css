@@ -1,0 +1,10 @@
+.petFooterTop1 {
+    height: 137px;
+    width: 265px;
+}
+
+.socialIcons {
+    justify-content:space-between;
+    display: flex;
+    margin-top: 25px;
+}

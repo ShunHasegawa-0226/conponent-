@@ -4,8 +4,8 @@ import './BasicbuttonGroup.css';
 const BasicbuttonGroup = () => {
     return(
         <div className='buttonGroup'>
-            <BasicButton size={"large"} color={"black"} btnText={"条件クリア"}></BasicButton>
-            <BasicButton size={"large"} color={"black"} btnText={"検索"}></BasicButton>
+            <BasicButton size={"large"} color={"white"} btnText={"条件クリア"}></BasicButton>
+            <BasicButton size={"large"} color={"white"} btnText={"検索"}></BasicButton>
         </div>
     );
 };

@@ -1,0 +1,16 @@
+.petFoodiesTop {
+    width: 1300px;
+    margin: 0 auto;
+    margin-top: 300px;
+    display: flex;
+}
+
+.petFoodiesTopTab {
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.petFoodiesTopBtn {
+    margin-top: 5px;
+    margin-left: 255px;
+}

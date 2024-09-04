@@ -8,6 +8,9 @@ import TanakaDetail from "./pages/TanakaDetail";
 import SuzukiDetail from "./pages/SuzukiDetail";
 import Registration from "./pages/Registration";
 import Edit from "./pages/Edit";
+import Pet from "./pages/Pet";
+
+
 
 const App = () => {
   return (
@@ -21,6 +24,7 @@ const App = () => {
         <Route path="/suzukidetail" element={<SuzukiDetail />} />
         <Route path="/registration" element={<Registration />} />
         <Route path="/edit" element={<Edit />} />
+        <Route path="/pet" element={<Pet />} />
       </Routes>
     </BrowserRouter>
     </>

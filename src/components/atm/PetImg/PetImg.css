@@ -1,0 +1,16 @@
+.petImg {
+    height: 295px;
+    width: 295.21px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.instIcon {
+    color: #FFFFFF;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: 140px;
+}
