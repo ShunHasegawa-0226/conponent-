@@ -1,8 +1,12 @@
-import YamadaDetailPage from '../components/templates/DetailPage/YamadaDetailPage';
+import DetailPage from '../components/templates/DetailPage/DetailPage';
+import DetailContent from '../components/organisms/DetailContent/DetailContent';
 
 const YamadaDetail = () => {
     return(
-        <YamadaDetailPage />
+        <>
+        <DetailPage />
+        <DetailContent id={1} name={"山田太郎"} age={20} />
+        </>
     );
 };
 

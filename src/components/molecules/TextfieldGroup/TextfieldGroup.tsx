@@ -1,9 +1,15 @@
 import TextField from '../../atm/TextField/TextField';
 
-const TextfirldGroup = () => {
+type Props = {
+    label: string;
+    size: "small" | "large";
+    color: string;
+}
+
+const TextfirldGroup = (props: Props) => {
     return(
-        <h3>名前： 
-            <TextField size={"large"} color={"white"}></TextField>
+        <h3>{props.label}： 
+            <TextField size={props.size} color={props.color} />
         </h3>
     );
 };

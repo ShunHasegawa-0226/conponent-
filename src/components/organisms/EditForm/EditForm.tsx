@@ -1,5 +1,5 @@
 import TextField from "../../atm/TextField/TextField";
-import SearchFormBackBtn from "../../molecules/SearchFormBackBtn/SearchFormBackBtn";
+import LinkButton from "../../atm/LinkButton/LinkButton";
 import BasicButton from "../../atm/BasicButton/BasicButton";
 
 const EditForm = () => {
@@ -8,7 +8,7 @@ const EditForm = () => {
             <h3>ID：<TextField size={"small"} color={"white"} /></h3>
             <h3>氏名：<TextField size={"large"} color={"white"} /></h3>
             <h3>年齢：<TextField size={"small"} color={"white"} /></h3>
-            <SearchFormBackBtn />
+            <LinkButton size={"large"} color={"white"} btnText={"一覧ページに戻る"} link={`/`} />
             <BasicButton size={"large"} color={"white"} btnText={"編集する"} />
         </form>
     );

@@ -1,8 +1,12 @@
-import SuzukiDetailPage from '../components/templates/DetailPage/SuzukiDetailPage';
+import DetailPage from '../components/templates/DetailPage/DetailPage';
+import DetailContent from '../components/organisms/DetailContent/DetailContent';
 
 const SuzukiDetail = () => {
     return(
-        <SuzukiDetailPage />
+        <>
+        <DetailPage />
+        <DetailContent id={3} name={"鈴木二郎"} age={23} />
+        </>
     );
 };
 

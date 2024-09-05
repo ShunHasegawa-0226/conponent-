@@ -1,8 +1,12 @@
-import SatoDetailPage from '../components/templates/DetailPage/SatoDetailPage';
+import DetailPage from '../components/templates/DetailPage/DetailPage';
+import DetailContent from '../components/organisms/DetailContent/DetailContent';
 
 const SatoDetail = () => {
     return(
-        <SatoDetailPage />
+        <>
+        <DetailPage />
+        <DetailContent id={2} name={"佐藤花子"} age={19} />
+        </>
     );
 };
 

@@ -6,7 +6,14 @@ import Typography from '@mui/material/Typography';
 import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 
-export default function AccordionExpandIcon() {
+type Props = {
+  title1: string;
+  text1: string;
+  title2: string;
+  text2: string;
+};
+
+export default function AccordionExpandIcon(props: Props) {
   return (
     <div>
       <Accordion>
@@ -15,12 +22,11 @@ export default function AccordionExpandIcon() {
           aria-controls="panel1-content"
           id="panel1-header"
         >
-          <Typography>Accordion 1</Typography>
+          <Typography>{props.title1}</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
+            {props.text1}
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -30,12 +36,11 @@ export default function AccordionExpandIcon() {
           aria-controls="panel2-content"
           id="panel2-header"
         >
-          <Typography>Accordion 2</Typography>
+          <Typography>{props.title2}</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
+            {props.text2}
           </Typography>
         </AccordionDetails>
       </Accordion>
