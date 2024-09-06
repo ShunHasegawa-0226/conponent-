@@ -1,0 +1,19 @@
+.smallDogGroup {
+    height: 699px;
+    width: 648px;
+    top: 37px;
+    margin-left: 1003px;
+    position: relative;
+}
+
+.smallDogCircle {
+    position: absolute;
+    top: 51px;
+}
+
+.smallDogImg {
+    position: absolute;
+    height: 699px;
+    width: 451px;
+    left: 82px;
+}

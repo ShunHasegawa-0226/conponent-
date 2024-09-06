@@ -1,0 +1,16 @@
+.contactAddress {
+    height: 47px;
+    margin-left: 75px;
+}
+
+.tool {
+    text-align: right;
+    font-family: "ヒラギノ角ゴ ProN";
+    color: #908F8D;
+}
+
+.address {
+    text-align: right;
+    font-family: "Comic Sans MS";
+    color: #41403E;
+}

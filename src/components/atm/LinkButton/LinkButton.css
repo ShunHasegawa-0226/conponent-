@@ -1,0 +1,12 @@
+.button {
+    margin: 10px;
+}
+
+.largeLinkBtn {
+    height: 70px;
+    width: 200px;
+}
+.smallLinkBtn {
+    height: 50px;
+    width: 100px;
+}

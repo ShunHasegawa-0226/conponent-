@@ -1,0 +1,9 @@
+.tb {
+    border: solid 1px;
+    text-align: center;
+    width: 1200px;
+}
+
+.th {
+    height: 75px;
+}

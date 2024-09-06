@@ -1,0 +1,12 @@
+.petTopText {
+    height: 298px;
+    width: 699px;
+    line-height: 96.68px;
+
+    position: absolute;
+    top: 222px;
+    left: 911px;
+}
+.petTopBtn {
+    margin-top: 40px;
+}

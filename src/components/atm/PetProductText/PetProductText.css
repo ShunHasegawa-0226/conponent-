@@ -1,0 +1,41 @@
+.productName {
+    font-size: 26px;
+    color: #41403E;
+    line-height: 28.56px;
+    font-family: "Comic Sans MS";
+    margin-top: 20px;
+}
+
+.review {
+    display: flex;
+    margin-top: 5px;
+}
+
+.star {
+    color: #DEAD6F;
+    margin-right: 5px;
+}
+
+.place {
+    font-size: 26px;
+    color: #DEAD6F;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: -5px;
+}
+
+.productBtn {
+    margin-top: 15px;
+    display: flex;
+}
+
+.fav {
+    margin-left: 15px;
+    position: relative;
+}
+
+.favBtn {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+
+}

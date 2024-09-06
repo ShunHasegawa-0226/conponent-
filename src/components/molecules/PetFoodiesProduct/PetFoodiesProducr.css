@@ -1,0 +1,10 @@
+.productsFoodies {
+    width: 1300px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.productFoodies {
+    margin: auto;
+    margin-top: 50px;
+}

@@ -1,0 +1,29 @@
+.petBlogImg {
+    position: relative;
+}
+
+
+.dateIcon {
+    height: 80px;
+    width: 80px;
+    border: none;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    text-align: center;
+
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.date {
+    font-size: 26px;
+    color: #DEAD6F;
+    margin-top: 10px;
+
+}
+
+.month {
+    font-size: 15px;
+    color: #41403E;
+}

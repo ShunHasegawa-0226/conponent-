@@ -1,0 +1,17 @@
+.petSocialIconParent {
+    height: 45px;
+    width: 45px;
+    border: 1px solid #D9D9D8;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.petSocialIcon {
+    margin-top: 10px;
+}
+
+.facebock {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}

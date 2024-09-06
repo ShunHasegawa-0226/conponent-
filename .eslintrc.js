@@ -12,4 +12,7 @@ module.exports = {
   rules: {
     // カスタムルールを追加できます
   },
+  prettier: {
+    singleQuote: true,
+  },
 };

@@ -1,0 +1,23 @@
+.headerBottom {
+    height: 32px;
+    width: 1312px;
+    margin-top: 20px;
+
+    display: flex;
+}
+
+.headerBttomContent {
+    display: flex;
+    height: 42px;
+    width: 704px;
+    margin-top: 10px;
+    margin-left: 210px;
+}
+
+.BSP {
+    margin-top: -12px;
+}
+
+.headerBottomIcons {
+    margin-left: 60px;
+}

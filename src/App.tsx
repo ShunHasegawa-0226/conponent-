@@ -1,35 +1,34 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React from "react";
+import { Route, BrowserRouter, Routes } from "react-router-dom";
 
-function App() {
-  const [count, setCount] = useState(0)
+import Search from "./pages/Search";
+import YamadaDetail from "./pages/YamadaDetail";
+import SatoDetail from "./pages/SatoDetail";
+import TanakaDetail from "./pages/TanakaDetail";
+import SuzukiDetail from "./pages/SuzukiDetail";
+import Registration from "./pages/Registration";
+import Edit from "./pages/Edit";
+import Pet from "./pages/Pet";
 
+
+
+const App = () => {
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Search />} />
+        <Route path="/yamadadetail" element={<YamadaDetail />} />
+        <Route path="/satodetail" element={<SatoDetail />} />
+        <Route path="/tanakadetail" element={<TanakaDetail />} />
+        <Route path="/suzukidetail" element={<SuzukiDetail />} />
+        <Route path="/registration" element={<Registration />} />
+        <Route path="/edit" element={<Edit />} />
+        <Route path="/pet" element={<Pet />} />
+      </Routes>
+    </BrowserRouter>
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;

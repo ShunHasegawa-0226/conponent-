@@ -1,0 +1,12 @@
+.petBlogContents {
+    display: flex;
+    margin-top: 50px;
+}
+
+.petBlogContent {
+    margin: 0 auto;
+}
+
+.petBlogText {
+    margin: 10px 0;
+}

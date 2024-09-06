@@ -1,0 +1,24 @@
+.petProductImg {
+    height: 283px;
+    width: 310px;
+    background-color: #EEEBE5;
+    border-radius: 10px;
+
+    position: relative;
+}
+
+.newIcon {
+    height: 29px;
+    width: 60px;
+    border: solid 1px rgba(65, 64, 62,.3);
+    border-radius: 6px;
+    text-align: center;
+
+    position: absolute;
+    top: 14px;
+    left: 14px;
+}
+
+.productImage {
+    position: absolute;
+}

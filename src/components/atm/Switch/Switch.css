@@ -1,0 +1,47 @@
+.ToggleSwitch {
+  display: flex;
+  align-items: center;
+}
+
+.switchInput {
+  display: none;
+}
+
+.switchLabel {
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 34px;
+  transition: background-color 0.4s;
+}
+
+.switchButton {
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  transform: translateY(-50%);
+  height: 20px;
+  width: 20px;
+  background: white;
+  border-radius: 50%;
+  transition: transform 0.4s;
+}
+
+.switchInput:checked + .switchLabel .switchButton {
+  transform: translate(20px, -50%);
+}
+
+.small .switchLabel {
+  height: 20px;
+  width: 40px;
+}
+
+.large .switchLabel {
+  height: 30px;
+  width: 60px;
+}
+
+.large .switchButton {
+  height: 26px;
+  width: 26px;
+}

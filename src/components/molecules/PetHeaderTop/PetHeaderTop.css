@@ -1,0 +1,16 @@
+.headerTop {
+    height: 57px;
+    width: 1300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position:relative;
+}
+
+.contactGroup {
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 1300;
+    margin-top: 5px;
+}

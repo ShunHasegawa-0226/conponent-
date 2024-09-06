@@ -1,0 +1,24 @@
+.largeDogGroup {
+    height: 773px;
+    width: 606px;
+    margin-top: 31px;
+    margin-left: 247px;
+
+    position: relative;
+}
+
+.largeDogCircle {
+    position: absolute;
+    top: 167px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.largeDogImg {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 42px;
+}
